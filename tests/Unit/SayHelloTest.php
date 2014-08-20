@@ -1,6 +1,6 @@
 <?php
-
-class testSayHello extends PHPUnit_Framework_TestCase
+require_once __DIR__ . '/../../vendor/autoload.php';
+class SayHelloTest extends PHPUnit_Framework_TestCase
 {
 	public static function testMustBeEqual()
 	{
